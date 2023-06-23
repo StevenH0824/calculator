@@ -1,0 +1,123 @@
+/* Done */
+body {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+
+    /* width: 100%; */
+    max-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex: 0 2 auto;
+    max-width:auto;
+
+}
+
+.header-main {
+    display: flex;
+    flex: 2 0 auto;
+    justify-content: flex-start;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.header-links {
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+
+
+form {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+input {
+    min-width: 250px;
+    min-height: 30px;
+    text-align: right;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+/* Working on */
+.main-container-cover {
+    background-color: gray;
+    border-radius: 5%;
+    padding:2px;
+    display:flex;
+    flex-direction: column;
+    height: 410px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.main-container-contents{
+    border-radius: 3%;
+    padding: 10px 20px 17px 20px;
+    background-color: lightgray;
+    box-shadow: 0 2px 4px gray;
+    margin: 20px 10px 0px 10px;
+
+    display: flex;
+    flex-direction: column;
+    height: 355px;
+    width: auto;
+    justify-content: stretch;
+}
+
+.columns {
+    display:flex;
+    flex-direction: row;
+}
+
+.buttons{
+    padding: 14px;
+    display: flex;
+    flex: auto;
+    box-shadow: 0 2px 4px darkslategray;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    min-width: 36px;
+    min-height: 35px;
+    margin-bottom: 3px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.space{
+    display: flex;
+    flex: 10 0 auto;
+    min-height:20px;
+    /*height: 100px;*/
+}
+
+
+footer{
+    display: flex;
+    flex:  none;
+    justify-content: center;
+    align-items: flex-end;
+    /*height: calc(100%-100px);*/
+}
